@@ -1,7 +1,10 @@
-# cse210-ww-student-template
-This is the starter code for students in the worldwide content version of CSE 210.
-
-This repository contains the starter code for many different projects. They are arranged as follows:
+Hi I am Grant@BYUI 
+👀 I’m currently learning how to code with github and VS Code using C#
+- 🌱 I’m currently learning how to code with github and VS Code using C#
+💞️ I’m looking to collaborate on The assignments via MS Teams
+- 📫 How to reach me is by text, or email
+😄 Pronouns: Mr
+⚡ Fun fact: I am an Eagle Scout and Walked 5 and a half miles in the Rose Parade in Pasadena with My brother who eagled in the same year I did
 
 * `sandbox` - An empty project that you can use to play around with any concepts you like.
 * `csharp-prep` - Starter projects for each of the C# Prep assignments.
