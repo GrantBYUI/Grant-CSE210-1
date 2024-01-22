@@ -1,44 +1,38 @@
 using System;
 
 class Program
-#commit
 {
     static void Main(string[] args)
     {
-        // For Parts 1 and 2 where the number is specified
-        // Console.Write(What is the magic Number)
-        // int magic Number = int parse(console.Readline())
+          // For Parts 1 and 2, where the user specified the number...
+          // Console.Write("What is the magic number? ");
+          //int magicNumber =int.Parse(Console.ReadLine());
 
-        //For our third part we are going to use a random number
-        Lets use a generator to determine this mystery number
-        intmagicNumber = random generator.next(1,100)
+          // For Part 3,where we use random number
+          Random randomGenerator = new Random();
+          int magicNumber = randomGenerator.Next(1,101);
 
-        intguess = 35
+          int guess = -1;
 
-        while we are waiting lets hear about the prize
-        while(the contestant is guessing the number)
+        //We could use a do while loop here...
+        call:{guess = magicNumber};
         {
-            console.Writeline(what is you first guess?);
-            guess = int.parse(console.readline)()();
+            Console.Write("What is your guess? ");
 
-            if(magic number>guess);
-        }
-                 Console.WriteLine(lower);
-        }
-        if (magic number guess);
-        {
-                 Console.Writeline(guessishigher);
-        }
-        else
-        {
-                 Console.WriteLine(guess is close but just off)
-        }
-                 Console.Writeline(congratulations you guess was correct great job);
-            else
-            {
-                 Console.writeline(too bad your guess was wrong the correct answer was);
-                 ("would you like to continue playing?")
-            }
-            {
 
-            }
+
+        {
+
+        }
+
+        {
+
+        }
+
+        {
+
+        }
+
+        }
+        }
+    }

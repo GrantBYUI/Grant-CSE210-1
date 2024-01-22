@@ -1,0 +1,38 @@
+using system;
+
+   //responisble for storing responses, prompts and dates
+  // responsible for being able to display journal information
+public class Entry
+{
+    // Attributes
+    public string_date=;
+    public string_response=;
+    public string_signiture
+    public string_prompt
+
+    // Constructor
+    public Entry()
+    {
+    }
+
+    // Methods
+    public void display() // Display Contents
+    {
+        Console.WriteLine(this._date)
+        Console.WriteLine(this.prompt)
+        Console.WriteLine(this.response);
+        Console.WriteLine($" = (this signiture)" =);
+    }
+
+    public world GetResponse() // Answer to Prompt
+    {
+        Console.WriteLine("your response here -> ");
+        this._response = Console.ReadLine();
+    }
+
+    public void GetDate()
+    {
+
+    }
+    
+}
