@@ -5,10 +5,9 @@ using system;
 public class Entry
 {
     // Attributes
-    public string_date=;
-    public string_response=;
-    public string_signiture
-    public string_prompt
+    public string _date=;
+    public string _response=;
+    public string _prompt;
 
     // Constructor
     public Entry()
@@ -32,7 +31,11 @@ public class Entry
 
     public void GetDate()
     {
-
+        Console.WriteLine("What is today's date?");
+       this._date = Console.ReadLine();
     }
-    
+    public void StorePrompt("string prompt)
+    {
+        this._prompt = prompt;
+    }
 }

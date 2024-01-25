@@ -12,23 +12,23 @@ using System;
         
         if(percent >= 90)
         {
-            letter ="V";
+            letter ="A";
         }
-        if(percent >= 80)
+        else if(percent >= 80)
         {
-            letter ="W";
+            letter ="B";
         }
-        if(percent >= 70)
+        else if(percent >= 70)
         {
-            letter ="x";
+            letter ="C";
         }
-        if(percent >= 60)
+       else if(percent >= 60)
         {
-            letter ="y";
+            letter ="D";
         }
-        if (true)
+        else
         {
-            letter ="z";
+            letter ="F";
         }
 
              Console.WriteLine($"your letter grade is: {letter}");
@@ -36,10 +36,11 @@ using System;
              if (percent >= 60)
              {
              Console.WriteLine("Congratulations you passed! ");
-             
-             {
+            }
+            else
+            {
                 Console.WriteLine("Better luck next time!");
-             }
-             }
+             
+            }
     }
  }

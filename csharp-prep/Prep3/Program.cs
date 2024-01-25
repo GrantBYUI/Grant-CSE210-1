@@ -14,25 +14,25 @@ class Program
 
           int guess = -1;
 
-        //We could use a do while loop here...
-        call:{guess = magicNumber};
-        {
+          //We could use a do while loop here...
+          while (guess != magicNumber)
+          {
             Console.Write("What is your guess? ");
+            guess = int.Parse(Console.ReadLine());
 
+            if (magicNumber > guess)
+          {
+               Console.WriteLine("Higher");
+          }
+          else if (magicNumber < guess)
+          {
+               Console.WriteLine("Lower");
+          }
+          else
+          {
+               Console.WriteLine("you guessed it!");
+          }
 
-
-        {
-
-        }
-
-        {
-
-        }
-
-        {
-
-        }
-
-        }
+          }
         }
     }
