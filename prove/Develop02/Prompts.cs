@@ -1,28 +1,29 @@
-using system;
+using System;
 
 // Responsible for hold different journal prompts.
 // will randomly select a prompt when asked
-public class prompts
+public class Prompts
 {
 // Attributes
-public list<string> _prompts =new List<string>();
+public List<string> _prompts = new List<string>();
 
  // Constructor
- public Prompts
+ public Prompts()
  {
-    this._prompts.add("Who was the most interesting person I interacted with today?");
-    this._prompts.add("What was the best part of my day");
-    this._prompts.add("How did I see the hand of the lord in my life?");
-    this._prompts.add("What was the strongest emotion I  felt today?");
-    this._prompts.add("If I had one thing I could do over again today, what would it be?");
+    this._prompts.Add("Who was the most interesting person I interacted with today?");
+    this._prompts.Add("What was the best part of my day");
+    this._prompts.Add("How did I see the hand of the lord in my life?");
+    this._prompts.Add("What was the strongest emotion I  felt today?");
+    this._prompts.Add("If I had one thing I could do over again today, what would it be?");
  }
 
     //Methods
-    public string GetPrompt() newRandom();
+    public string GetPrompt()
     {
+      // gets a random prompt for the user so that their journal isn't the same everyday
+      Random rnd = new Random();
+      int select = rnd.Next(0, this._prompts.Count-1);
 
-    int.select = RandomGenerator.Next(0, thisprompts.count-1);
-
-    return this.prompts(select);
+      return this._prompts[select];
     }
 }

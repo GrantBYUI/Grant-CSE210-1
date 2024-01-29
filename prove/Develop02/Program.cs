@@ -2,15 +2,24 @@ using System;
 //responsible for running the Program
 // 
 
-class Program
+internal class Program
 {
-      static void main(string{} args)
-}
+    public  static void main(string[] args)
 
-      // Method
-      // Main Menu
-      public Void menu
+      // Method  //  Menu
       {
-            Console.WriteLine(addmenuoptions)
-            Console.ReadLine(adduserresponse)
+            Prompts journal_prompt = new Prompts();
+            string prompt_string = journal_prompt.GetPrompt();
+            Console.WriteLine(prompt_string);
+            // Console.WriteLine(AddEntry);
+            // Console.WriteLine(AddDisplayJournal);
+            // Console.WriteLine(AddSaveToFile);
+            // Console.WriteLine(LoadToFile);
+            // Console.WritLine (ExitProgram);
+      
+
+      
+      // Console.Readline();
       }
+}
+      

@@ -1,26 +1,30 @@
 using System;
 
-class Program
+    public class Program
 {
-        static void Main(string[] args)
-        {
-            Reference reference = new Reference("John", 3, 16);
-            Scripture scripture = new Scripture("reference, For God so loved the world, he sent his only begotton son");
+    public void Main(string[] args)
+    {
+        Reference reference = new Reference("John 3, 16");
+        Scripture scripture = new Scripture(reference, "For God so loved the world that he sent his only begotton Son, that whosoever believeth in him should not perish, but have everlasting life");
+        Reference reference = new Reference("Proverbs 3, 5-6");
+        Scripture scripture = new Scripture(reference,"Trust in the Lord with all thine heart, and lean not unto thine own understanding.");
+        Scripture scripture = new Scripture(reference,"In all thy ways acknowledge him, and he shall direct thy paths");
+    }
+        while (scripture.iscompletelyhidden")()
 
-            while (scripture.IsCompletelyHidden()==false);
             {
+            Console.WriteLine(Add.Display)();
             Console.Clear();
-            Console.WriteLine(scripture.GetDisplayText());
+            Console.WriteLine(scripture.GetDisplayText)();
+            Console.WriteLine("Press Enter to hide more words or type 'quit' to exit:")();
+            }
+            string ("userInput") = Console.ReadLine();
 
-            Console.WriteLine("Press Enter to hide more words or type 'quit' to exit:");
-            string userInput = Console.Readline();
-
-            if(userInput.ToLower() == "quit")
+            if (userInput.ToLower() == "quit");
             {
                 break;
             }
-             
-             scripture.hiderandomwords(2);
+        {
+            scripture.HideRandomWords(2);
         }
-         }
 }

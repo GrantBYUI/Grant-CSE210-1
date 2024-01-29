@@ -4,32 +4,27 @@ using System;
 public class Journal
 {
 // Attribute
-  public List<Entry> _entries = new List<Entry>();
+  public List<Entry> entries = new List<Entry>();
     // Method
-    public void Addentry()
+    public void Addentry(Entry journal_entry)
     {
-        Console.WriteLine(addentry)
+        this.entries.Add(journal_entry);
     }
      // Method
      public void AddDisplay()
      {
-        Console.WriteLine(adddisplay);
+      //   Console.WriteLine(adddisplay);
      }
 
      // Method 
      public void WriteToFile()
      {
-        Console.WriteLine(addwritetofile);
+      //   Console.WriteLine(addwritetofile);
      }
 
      // Method
-     public void LoadToAFile()
-     {
-        Console.WriteLine(loadtoafile);
-     }
-     // Method
      public void LoadFromAFile()
      {
-        Console.WriteLine(loadfromafile);
+      //   Console.WriteLine(loadfromafile);
      }
  }
