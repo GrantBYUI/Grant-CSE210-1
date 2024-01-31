@@ -1,64 +1,62 @@
 using System;
 using System.Diagnostics.Contracts;
 
-class Scripture
+public class Scripture
 {
-    publicReference _reference;
-    public List<Word>_words;
-}
+    private Reference _reference;
+    private List<Word> _words;
+// Constructor
+    public Scripture(Reference reference,string text)
     {
-        // Constructor
-    public scripture(Reference Reference,string text);
-    
-    ._reference = Reference();
-        ._words = new List<Word>();
+        _reference = reference;
+        _words = new List<Word>();
         string[] wordArray = text.Split(" ");
         // Create Word objects for each word in the array   
-        foreach (string wordText in wordArray);
-    
-        ._words.Add(new Word(wordText));
-    }
-
-    {
-        public class Scripture
-        
-            Random random = new Random();
-            HashSet<int> usedIndices = new HashSet<int>();
-            public void HideRandomWords(int numberToHide);
-    }
-
+        foreach (string wordText in wordArray)
         {
-            for (int i = 0; i < numberToHide; i++);
+            _words.Add(new Word(wordText));
+        }
+    }
+
+        public void HideRandomWords(int numberToHide)
+    {
+        Random random = new Random();
+        HashSet<int> usedIndices = new HashSet<int>();
+        for (int i = 0; i < numberToHide; i++);
+        {
             int index;
 
             do
-        }
+            {
+                index = random.Next(_words.Count);
+            } while (usedIndices.Contains(index));
 
+            _words[index].Hide();
+            usedIndices.Add(index);
+        }
+    }
+
+        public string GetDisplayText()
         {
-            index = random.Next(_words.Count);
-            while (usedIndices.Contains(index));
+            // string displayText = $"(_reference.GetDisplayText)()";
+            // foreach (Word word in _words)
+            // {
+            //     displayText = $"("displayText") ("word.GetDisplayText")();
+            // }
+            // return displayText.Trim();
+            return "";
         }
-            
+
+        public bool IsCompletelyHidden()
+    {
+        foreach (Word word in _words)
         {
-            ._words[index].Hide();
-            ._usedIndices.Add(index);
+            if (word.IsHidden()==false)
+            {
+                return false;
+            }
         }
-
-        public string GetDisplayText();
+        return true; 
+    }
         
-            string displayText = $"{_reference.GetDisplayText"};
-            foreach (Word word in ._words)
-            displayText = $"{displayText} (word.GetDisplayText)();
-        
-            return displayText.Trim();
-        }
-
-        public bool IsCompletelyHidden();
-            foreach (Word word in _words);
-            if (word.IsHidden()==false);
-            return (false);
-        
-
-            foreach (Word word in _words);
-            if (word.IsHidden()==true);
-            return true();
+}

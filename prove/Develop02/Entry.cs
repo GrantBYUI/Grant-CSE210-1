@@ -1,6 +1,6 @@
 using System;
    
-   //responisble for storing responses, prompts and dates
+   //responsible for storing responses, prompts and dates
   // responsible for being able to display journal information
 public class Entry
 {
