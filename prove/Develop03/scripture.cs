@@ -22,6 +22,8 @@ public class Scripture
     {
         Random random = new Random();
         HashSet<int> usedIndices = new HashSet<int>();
+        //while (scripture.IsCompetelyHidden()==false);
+        // use keypress in if statement to make enter start hide random words
         for (int i = 0; i < numberToHide; i++);
         {
             int index;

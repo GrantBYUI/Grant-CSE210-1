@@ -18,6 +18,7 @@ public class Program
         Console.ReadLine();
         Console.WriteLine("the scripture is {Proverbs 3, 5,6}");
         Console.WriteLine("Trust in the Lord with all thine heart; and lean unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths");
+        //while (scripture.IsCompetelyHidden()==false);
         Console.ReadLine();
         Console.WriteLine("press enter to continue or type quit to finish:");
         return;
