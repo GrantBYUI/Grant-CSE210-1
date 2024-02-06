@@ -10,10 +10,10 @@ using system;
 //Constructors
 
 Run();
-GetRandomPrompt(); string
-GetRandomQuestion(); string
-DisplayPrompt();  void
-DisplayQuestions();  void
+GetRandomPrompt(); //string
+GetRandomQuestion(); //string
+DisplayPrompt();  //void
+DisplayQuestions();  //void
 
 //Getresponse("showrandomprompt");
 

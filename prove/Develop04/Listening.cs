@@ -2,15 +2,15 @@ using System;
 
 {
     ListeningActivity();
-    string = Run();
+    //string = Run();
 // Constructors
 {
-_count:int
-_prompts:<List> = new list<string>
-Getrandomprompt(); 
-GetRandomPrompt(); string
-GetListFromUser(); 
-List<string>;
+//_count:int;
+    //prompts:<List> = new list<string>
+    Getrandomprompt(); 
+    GetRandomPrompt(); //string
+    GetListFromUser(); 
+    //List<string>; = new string;
 }
 
     //Main Method 
