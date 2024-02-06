@@ -5,13 +5,14 @@ private Class Activity
     //private static void Main(string[] args);
 
     get;
-    this program allows the user to respond to the program
+    //this program allows the user to respond to the program
 
     get;
 
     get; 
 
-    get; base class contains all fuctionallity;
+    get; 
+    //base class contains all fuctionallity;
     
     //Main Method 
     get; namespace or Name;

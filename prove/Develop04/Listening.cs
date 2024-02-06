@@ -5,21 +5,21 @@ private Class Listening
 
     get or <Run> ListeningActivity();
 
-    Who are people that you appreciate?
+    //Who are people that you appreciate?
     
-    What are personal strengths of yours?
+    //What are personal strengths of yours?
     
-    Who are people that you have helped this week?
+   // Who are people that you have helped this week?
 
-    When have you felt the Holy Ghost this month?
+   // When have you felt the Holy Ghost this month?
     
 
-    Who are some of your personal heroes?
+   // Who are some of your personal heroes?
     
 
     //this program allows the user to listen
 
-    string = RunListeningActivity();
+    //string = RunListeningActivity();
 
     //Attributes
 
@@ -29,22 +29,22 @@ private Class Listening
 
     // Constructors
 
-    _count:int;
+    //_count:int;
 
-    prompts:<List> = new list<string>
+   // prompts:<List> = new list<string>
 
-    get randomprompt;
+    //get randomprompt;
 
     //Getrandomprompt(); 
 
-    string = GetRandomPrompt();
+    //string = GetRandomPrompt();
 
-    GetListFromUser(); 
+    //GetListFromUser(); 
 
     //List<string>; = new string;
 
     //Main Method 
-    get response();
+   // get response();
 
-    get return
+   // get return
 }
