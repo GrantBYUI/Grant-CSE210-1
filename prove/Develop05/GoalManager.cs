@@ -1,7 +1,7 @@
 //outputFile.WriteLine();
 //object value = NameSpaceSystem.IO.File.("ReadAllLines");
 {
-    // Class declaratiom
+private Class Goal Manager
  //Attributes
     //private string _goals;
     //private string _score;

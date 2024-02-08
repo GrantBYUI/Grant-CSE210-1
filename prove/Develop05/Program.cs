@@ -8,7 +8,7 @@ private class Program
       //private static void main(string[] args);
             
             // Method
-            //Getgoals();
+            Getgoals();
             
                   //(get.goals) = Console.WriteLine("Create a Goal");
                   //(get.Display) = Console.WriteLine("getDisplay Goals");
