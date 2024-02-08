@@ -1,7 +1,8 @@
 //outputFile.WriteLine();
 //System.IO.File.ReadAllLines();
-{
+
 private class Checklist
+{
 // private string _amountcompleted: 100
 // private string _target: int  400
 // private string _bonus: int 1000
