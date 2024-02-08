@@ -5,9 +5,9 @@ using System;
 //private class Simple Goal
 {
     // Attributes
-    //public string _date;
-    //public string _response;
-    //public string _prompt;
+    //public string _goal;
+    //public string _description;
+    //public string _points;
 
     // Constructor
     //public Goal()
@@ -15,7 +15,7 @@ using System;
     //}
 
     // Methods
-    private void Display() // Display Contents
+    //private void Display() // Display Contents
     {
         //Console.WriteLine(this._goal);
         //Console.WriteLine(this._points);
