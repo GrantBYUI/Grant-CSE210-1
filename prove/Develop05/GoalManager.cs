@@ -1,10 +1,10 @@
-outputFile.WriteLine();
-
-System.IO.File.("ReadAllLines");
+//outputFile.WriteLine();
+//object value = NameSpaceSystem.IO.File.("ReadAllLines");
 {
  //Attributes
-    private string _goals;
-    private string _score;
+    //private string _goals;
+    //private string _score;
+
     //GoalManager();
     //Start(); string // Void
     //DisplayPlayerInfo();

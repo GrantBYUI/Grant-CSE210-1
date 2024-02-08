@@ -1,6 +1,6 @@
-using System;
+//using System;
 
-private class Eternal
+//private class Eternal
 {
     //EternalGoal(name, description, points);
 

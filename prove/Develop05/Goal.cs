@@ -1,5 +1,5 @@
-outputFile.WriteLine();
-System.IO.File.ReadAllLines();
+//outputFile.WriteLine();
+//System.IO.File.ReadAllLines();
 {
     //Attributes
     // private string _shortName; private string

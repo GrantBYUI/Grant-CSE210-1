@@ -21,9 +21,8 @@ public class Program
                   getentry();
             }
             
-            //GetReponse();
-            // string last = Console.Readline();
-            //Prompts journal_prompt = new Prompts();
-            //string prompt_string = journal_prompt.GetPrompt();
-            //Console.Write(prompt_string);
+           (get.entry)= Console.WriteLine("Write an entry");
+                  (get.Display)= Console.WriteLine("getDisplay Entries");
+                  (get.Write)= Console.WriteLine("Write to a File");
+                  (get.Read)Console.WriteLine("Read from a File");
 }

@@ -1,5 +1,5 @@
-outputFile.WriteLine();
-System.IO.File.ReadAllLines();
+//outputFile.WriteLine();
+//System.IO.File.ReadAllLines();
 {
 // private string _amountcompleted: int
 // private string _target: int
