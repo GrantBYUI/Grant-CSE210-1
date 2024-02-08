@@ -1,9 +1,5 @@
-using System;
-
-public class Checklist Goal
+outputFile.WriteLine();
+System.IO.File.ReadAllLines();
 {
-//_amount Articles of Faith memorized: int
-//_target =thirteen
-//_bonus:200 points
 
 }

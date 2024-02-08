@@ -1,13 +1,16 @@
-using System;
+outputFile.WriteLine();
 
-public Class Goal Manager
+System.IO.File.("ReadAllLines");
 {
-//_gaols:List<goals>
-start(); //void
-//DisplayPlayerInfo(); void
-//List GoalNames(); void
-//CreateGoalList(); void
-//recordEvent(); Void
-//SaveGoals(); Void
-//LoadGoals(); Void
+ //Attributes
+    private string _goals;
+    private string _score;
+    //GoalManager();
+    //Start(); string // Void
+    //DisplayPlayerInfo();
+    //ListGoalNames(); string //Void
+    //CreateGoal(); string void
+    //RecordEvent(); 
+    //SaveGoals();
+    //LoadGoals();
 }
