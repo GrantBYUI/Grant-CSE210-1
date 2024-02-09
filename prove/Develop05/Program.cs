@@ -6,10 +6,10 @@
 private class Program
 { 
       private static void Main(string[] args)
-      {
+      {     
             // Method
             Console.WriteLine("Menu Options");
-            Getgoals();
+            //Getgoals();
             
                   (get.goals) = Console.WriteLine("Create a Goal");
                   (get.Display) = Console.WriteLine("getDisplay Goals");
@@ -27,10 +27,11 @@ private class Program
                   string goals_string = newgoals_goals.GetGoals();
                   Console.Write(goals_string);
 
-                  return 
                   (get goals) Console.WriteLine("Create a Goal");
                   (get.Display)= Console.WriteLine("getDisplay Goals");
                   (get.Write)= Console.WriteLine("Write Goals to a File");
                   (get.Read)Console.WriteLine("Read Goals from a File");
+
+                  return
       }
 }

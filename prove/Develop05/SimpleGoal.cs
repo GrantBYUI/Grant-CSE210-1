@@ -4,6 +4,7 @@ using System;
   // responsible for being able to display score and point information
 private class Simple Goal
 {
+    
     // Attributes
     //public string _goal;
     //public string _description;
@@ -23,19 +24,19 @@ private class Simple Goal
     
     
 
-    //private void GetGoal() // Points
+        //private void GetGoal() // Points
     
         //Console.WriteLine("your points here -> ");
         //this._goal = Console.ReadLine();
     
 
-    //private void GetPoints()
+        //private void GetPoints()
     
         Console.WriteLine("What is your goal?");
        this._date = Console.ReadLine();
     
-    //private void StoreGoals(string goals)
+        //private void StoreGoals(string goals)
     
         //this._Goal = goals;
-    
+
 }
