@@ -5,7 +5,7 @@ private Class Goal Manager
  //Attributes
     //private string _goals;
     //private string _score;
-
+    
     //GoalManager();
     //Start(); string // Void
     //DisplayPlayerInfo();
