@@ -1,10 +1,9 @@
-using System;
-   
+outputFile.WriteLine();
+System.IO.File.ReadAllLines();
    //responsible for storing goals, scores, accomplished goals and unacomplished goals
   // responsible for being able to display score and point information
-private class Simple Goal
+private Class Simple goal
 {
-    
     // Attributes
     //public string _goal;
     //public string _description;
@@ -32,8 +31,9 @@ private class Simple Goal
 
         //private void GetPoints()
     
-        Console.WriteLine("What is your goal?");
-       this._date = Console.ReadLine();
+       Console.WriteLine("What is your goal?");
+       //get Display = _this.goal  
+       Console.ReadLine();
     
         //private void StoreGoals(string goals)
     

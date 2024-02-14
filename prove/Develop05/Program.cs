@@ -27,11 +27,11 @@ private class Program
                   string goals_string = newgoals_goals.GetGoals();
                   Console.Write(goals_string);
 
-                  (get goals) Console.WriteLine("Create a Goal");
-                  (get.Display)= Console.WriteLine("getDisplay Goals");
-                  (get.Write)= Console.WriteLine("Write Goals to a File");
-                  (get.Read)Console.WriteLine("Read Goals from a File");
+                  ("get goals");  Console.WriteLine("Create a Goal");
+                  ("get.Display"); Console.WriteLine("getDisplay Goals");
+                  ("get.Write");   Console.WriteLine("Write Goals to a File");
+                  ("get.Read");    Console.WriteLine("Read Goals from a File");
 
-                  return
-      }
+                  return;
+            }
 }
