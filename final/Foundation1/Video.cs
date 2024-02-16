@@ -1,46 +1,43 @@
 using System;
-
+   
+   //responsible for storing responses, prompts and dates
+  // responsible for being able to display journal information
 public Class Video
 {
-    get();
-    // Attributes 
+    // Attributes
     {
         public string _title;
-        public string _author;  
+        public string _author;
         public string _length;
         public string _comments;
-
-            //Methods 
-            public void Display(); // Display Comments
-            get ("comments");
-
-            //Console.WriteLine("what is the title of the Video? ");
-            //Console.WriteLine  ("Who is the author of the video? ");
-            //Console.WriteLine("How long is your video? ");
     }
-        //constructors
+    // Constructor
+    public Video();
     {
-        public video
-        public comments
-            //GetDisplay("Comments");
-        
-             Console.WriteLine(this._title);
-             Console.WriteLine(this._author);
-             Console.WriteLine(this._video length);
-             Console.WriteLine(this._comments);
+    }
 
-             public int
-             public list<int>
-             Getcommentnumber = new comment number
-             for each comment 
+    // Methods
+    public void Display() // Display Comments
+    {
+        Console.WriteLine(this._title);
+        Console.WriteLine(this._author);
+        Console.WriteLine(this._length);
     
-                Console.WriteLine("your response here -> ");
-                 this._response = Console.ReadLine();
-    
-    
-         // (3-4 comments on video);
-        
-             return 4;
+    }
 
+    public void comment();
+    {
+        Console.WriteLine("your response here -> ");
+        this._response = Console.ReadLine();
+    }
+
+    public void GetComment()
+    {
+        Console.WriteLine("Who is the author?");
+       this._date = Console.ReadLine();
+    }
+    public void StoreComments(string prompt)
+    {
+        this._comment = comment;
     }
 }

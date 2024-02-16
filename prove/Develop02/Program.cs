@@ -4,25 +4,25 @@ using System;
 
 public class Program
 {
-    public  static void main(string[] args);
+    public  static void Main(string[] args);
             
             // Method
             Getentry();
             public Menu Class
             {
                   //Console.WriteLine "What do you want to do" ?;
-                  (get.entry)= Console.WriteLine("Write an entry");
-                  (get.Display)= Console.WriteLine("getDisplay Entries");
-                  (get.Write)= Console.WriteLine("Write to a File");
-                  (get.Read)Console.WriteLine("Read from a File");
-                  (get.Save)Console.WriteLine("Save to a File");
+                  (get.entry)= Console.WriteLine(" getDisplay Write a comment");
+                  (get.Display)= Console.WriteLine("getDisplay get comment ");
+                  (get.Write)= Console.WriteLine("Write comment to a File");
+                  (get.Read)Console.WriteLine("Read comment from a File");
+                  (get.Save)Console.WriteLine("Save comment to a File");
                   string last = Console.ReadLine();
                   Console.WriteLine Quit;
-                  getentry();
+                  getcomment();
             }
             
-           (get.entry)= Console.WriteLine("Write an entry");
-                  (get.Display)= Console.WriteLine("getDisplay Entries");
-                  (get.Write)= Console.WriteLine("Write to a File");
-                  (get.Read)Console.WriteLine("Read from a File");
+           (get.entry)= Console.WriteLine("Write a comment");
+                  (get.Display)= Console.WriteLine("getDisplay comment");
+                  (get.Write)= Console.WriteLine("Write comment to a File");
+                  (get.Read)Console.WriteLine("Read comment from a File");
 }

@@ -7,12 +7,15 @@ public Class Comments
     private string _name;
     private string _text;
 
-     commenters name;
-     comment person;
+    get();
+    get commenter's name;
+     commenter's name;
+
+    get();
+     get comment person;
      
-     liststring name list = new list;
+     list string name list = new list;
      list string
-     string <name>
     }
 
 }
