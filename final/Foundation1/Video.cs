@@ -2,22 +2,27 @@ using System;
 
 public Class Video
 {
+    get();
     // Attributes 
-
-        public string _title
-            Console.WriteLine("what is the title of the Video? ");
-
-        public string _author
-            Console.WriteLine  ("Who is the author of the video? ");
-
-        public string _video length
-            Console.WriteLine("How long is your video? ");
-
-        //Method that returns comments
-
-        public void Display() // Display comments 
     {
-            GetDisplay("Comments");
+        public string _title;
+        public string _author;  
+        public string _length;
+        public string _comments;
+
+            //Methods 
+            public void Display(); // Display Comments
+            get ("comments");
+
+            //Console.WriteLine("what is the title of the Video? ");
+            //Console.WriteLine  ("Who is the author of the video? ");
+            //Console.WriteLine("How long is your video? ");
+    }
+        //constructors
+    {
+        public video
+        public comments
+            //GetDisplay("Comments");
         
              Console.WriteLine(this._title);
              Console.WriteLine(this._author);
@@ -26,8 +31,8 @@ public Class Video
 
              public int
              public list<int>
-             Getcommentnumber = new 
-             for each 
+             Getcommentnumber = new comment number
+             for each comment 
     
                 Console.WriteLine("your response here -> ");
                  this._response = Console.ReadLine();
