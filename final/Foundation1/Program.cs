@@ -2,22 +2,24 @@ using System;
 
 public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        // Title
-        // Console.WriteLine("what is the title of the Video? ");
-
-        // Author
-        // Console.WriteLine  ("Who is the author of the video? ");
-
-        // length of video
-        // Console.WriteLine("How long is your video? ");
-
-        //Method that returns comments
-
-        // (3-4 comments on video);
         
-        // return;
-
-    }
+            
+            // Method
+            Get();
+            GetComments
+            public Class Menu  
+            {
+                  Console.WriteLine "What do you want to do" ?;
+                    (get.)= Console.WriteLine("comment on a video ");
+                  (get.Display)= Console.WriteLine(); Display Comments
+                  (get.Write)= Console.WriteLine(); Write Comments
+                  (get.Read) = Console.WriteLine(); Read Comments
+                  (get.Save)Console.WriteLine(); Save Comments
+                  string last = Console.ReadLine();
+                  Console.WriteLine Quit;
+            }
+            
+}
 }
