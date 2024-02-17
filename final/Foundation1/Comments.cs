@@ -46,6 +46,9 @@ public Class Comments
         this._comment = comment;
     
         (get);
+    }
+    {
+
     private string _name;
     private string _text;
 
@@ -58,6 +61,6 @@ public Class Comments
      
      list string name list = new list;
      list string
-    }
+     }
 
 }
