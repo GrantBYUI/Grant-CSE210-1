@@ -27,17 +27,21 @@ public Class Video
 
     public void comment();
     {
-        Console.WriteLine("your response here -> ");
+        Console.WriteLine("your comment here -> ");
         this._response = Console.ReadLine();
     }
 
     public void GetComment()
     {
         Console.WriteLine("Who is the author?");
+        Console.WriteLine("your comment here ->");
         this._author = Console.ReadLine();
     }
-    public void StoreComments(string prompt)
+    public void StoreComments(string comments)
     {
+        Console.WriteLine("your comment here ->");
         this._comment = comment;
-    }
+    
+        Console.WriteLine("your comment here ->");
+        return 4;
 }
