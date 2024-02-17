@@ -34,7 +34,7 @@ public Class Video
     public void GetComment()
     {
         Console.WriteLine("Who is the author?");
-       this._date = Console.ReadLine();
+        this._author = Console.ReadLine();
     }
     public void StoreComments(string prompt)
     {

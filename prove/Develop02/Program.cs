@@ -2,9 +2,9 @@ using System;
 //responsible for running the Program
 // 
 
-public class Program
+public Class Program
 {
-    public  static void Main(string[] args);
+    public static void Main(string[] args)
             
             // Method
             Getentry();

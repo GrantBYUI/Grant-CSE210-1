@@ -1,25 +1,25 @@
-using System;
+//using System;
 
-public Class Program
+//public Class Program
 {
-    public static void Main(string[] args)
+    //public static void Main(string[] args)
     {
-        
+
+    } 
             
             // Method
-            Get();
-            GetComments
-            public Class Menu  
-            {
-                  Console.WriteLine "What do you want to do" ?;
-                  //(get.); = Console.WriteLine("comment on a video ");
-                  //(get.Display); = Console.WriteLine(); Display Comments
-                  //(get.Write); = Console.WriteLine(); Write Comments
-                  //(get.Read;) = Console.WriteLine(); Read Comments
-                  //(get.Save); Console.WriteLine(); Save Comments
-                  string last = Console.ReadLine();
-                 //(get.quit); = Console.WriteLine Quit;
-            }
-            
-  }
+    {
+            Console.WriteLine();
+    }
+            // Method
+            Console.WriteLine();
+    {
+
+    }
+            //Get();
+            //GetComments     
+    // video object 1
+    // Video Object 2
+    // Video Object 3
+    // GetDisplay Console.WriteLine();
 }
