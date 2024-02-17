@@ -1,4 +1,4 @@
-using System;
+/* using System;
    
    //responsible for storing responses, prompts and dates
   // responsible for being able to display journal information
@@ -45,4 +45,4 @@ public Class Video
         Console.WriteLine("your comment here ->");
         return 4;
     }
-}
+} 
