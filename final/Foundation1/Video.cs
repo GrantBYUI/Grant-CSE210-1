@@ -1,4 +1,4 @@
-/* using System;
+// using System;
    
    //responsible for storing responses, prompts and dates
   // responsible for being able to display journal information
@@ -14,6 +14,16 @@ public Class Video
     // Constructor
     public Video();
     {
+        public string _title = new _title
+        public string _author = new _author
+        public string _length = new _length
+        public string _comments = new comments
+
+        //return title;
+        //return author;
+        //return length;
+        return 4; // comments
+
     }
 
     // Methods
@@ -45,4 +55,4 @@ public Class Video
         Console.WriteLine("your comment here ->");
         return 4;
     }
-} 
+}

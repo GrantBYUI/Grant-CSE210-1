@@ -1,25 +1,27 @@
-//using System;
-
-//public Class Program
+using System;
+ 
+class Program
 {
-    //public static void Main(string[] args)
+    private static void Main(string[] args)
     {
-
-    } 
+       // Method
+            GetComment();
+            public Menu Class
+            {
+                  //Console.WriteLine "What do you want to do" ?;
+                  (get.)= Console.WriteLine(" getDisplay Write a comment");
+                  (get.Display)= Console.WriteLine("getDisplay Display a comment ");
+                  (get.Write)= Console.WriteLine("Write comment to a File");
+                  (get.Read)Console.WriteLine("Read comment from a File");
+                  (get.Save)Console.WriteLine("Save comment to a File");
+                  string last = Console.ReadLine();
+                  Console.WriteLine Quit;
+                  getcomment();
+            }
             
-            // Method
-    {
-            //Console.WriteLine();
+                (get.comment)= Console.WriteLine("Write a comment");
+                (get.Display)= Console.WriteLine("getDisplay get a comment");
+                (get.Write)= Console.WriteLine("Write comment to a File");
+                (get.Read)Console.WriteLine("Read comment from a File");
     }
-            // Method
-            // Console.WriteLine();
-    {
-
-    }
-            //Get();
-            //GetComments     
-    // video object 1
-    // Video Object 2
-    // Video Object 3
-    // GetDisplay Console.WriteLine();
 }

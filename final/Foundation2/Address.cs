@@ -6,7 +6,10 @@ public Class Address
     // Methods
     // address return Method USA or not 
     // string = Console.WriteLine ();
-    private get(); address
+    private get(); new address
+    private get(); new country
+    private get(); new city
+    private get(); new state or providence
     // The address contains a string for the street address, the city, state/province, and country.
     string = new street address
     string = new city
